@@ -1,0 +1,97 @@
+/*
+    selector {
+
+        property: value;
+        property: value;
+        property: value;
+        etc.
+
+        
+
+
+
+    }
+
+
+    Selector options:
+
+    tag name, such as p or img
+    .class name, such as .green or .highlighted
+    tag.class, such as h1.green or p.highlighted
+
+
+    tagname>tagname
+    .classname>tagname
+    tagnamge>.classname
+    .classname>.classname
+
+
+*/
+
+.nav {
+    list-style: none;
+    
+    border-style: dotted; color: aqua;
+
+    padding-left: 0;
+
+    width: 50%;
+
+    margin: auto;
+
+    text-align: center;
+
+    
+
+}
+
+.nav>li{
+    border-style: ridge; 
+
+    display: inline-block;
+
+   
+}
+
+img {
+
+    display: block;
+    width: 30%;
+    margin-left: 30%;
+    
+    
+
+}
+
+.rad {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color: sandybrown; text-align: center;
+}
+
+.army{
+    font-style: italic; color: mediumblue;
+    font-family: sans
+    -serif;
+    font-size: 300%;
+    
+    
+}
+
+
+.super{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 150%;
+}
+
+.cool {
+    font-family: cursive; background-color: darkseagreen; text-align: center;
+}
+
+.one {
+    text-align: center; font-family: fantasy; color: orangered; font-size: 300%;
+    
+}
+    
+    
+    
+
+
